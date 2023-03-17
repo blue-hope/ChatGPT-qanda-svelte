@@ -1,0 +1,32 @@
+:root {
+  --header-height: 56px;
+  --z-index-tooltip: 400;
+  --z-index-section: 300;
+  --z-index-dialog: 200;
+  --z-index-overlay: 100;
+  --z-index-underlay: -1;
+  --srw-top-banner-height: 72px;
+}
+
+* {
+  -webkit-touch-callout: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  -webkit-user-drag: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+input:focus, textarea:focus {
+  outline-width: 0;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  overflow: scroll;
+  background: black;
+}
